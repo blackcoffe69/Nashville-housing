@@ -1,7 +1,33 @@
-# MyQl-functions
-Performing functions on data sets
-### This is a walk through on some basic functions using mySQl 
+# Introduction
+
+#### This is a MysQl project that shows the data set of Nashiville housing home owners, the details about there properties,ranging from years the property has been owned,value,title and details about the property.
+
+# Skill demonstrated: 
+
+#### * Creating database,
+#### * Renaming column,
+#### * Add Column,
+#### * Deleting a column,
+#### * Conversion of date,
+#### * Sum up values,
+#### * Distinct functions,
+#### * Maximum Value,
+#### * Minimum,
+#### * Less than functions,
+
+# Problem Statement:
+
+#### * To find more details about home owners,
+#### * To know how long they have the title to the house home,
+#### * To Identify thoss single or married,
+#### * Identifying the range of value of the homes,
+
+# Data Sourcing:
+
+#### After defining my problem statement, I obtained a csv file from kaggle.com and imported it into mysQl workbench. Looking at the data after creating the database found out the data was clean so I proceed to load the data to visualize the information provided with the tables.
+
 <img width="938" alt="Portfolio1" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/4a9c1e29-d464-4db5-a841-5586004a985f">
+Created data base to load the database
 <img width="928" alt="Portfolio2" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/59c2de17-250f-4291-94bd-fd3434223fe8">
 <img width="944" alt="Portfolio3" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/620cb723-460d-4703-9199-213aade7e497">
 <img width="943" alt="Portfolio4" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/7a046cb5-67b3-4f7a-8115-d1c6a385ce18">
