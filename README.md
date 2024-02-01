@@ -29,7 +29,9 @@
 <img width="938" alt="Portfolio1" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/4a9c1e29-d464-4db5-a841-5586004a985f">
 
 Imported the csv file,created the database for the file
+
 <img width="928" alt="Portfolio2" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/59c2de17-250f-4291-94bd-fd3434223fe8">
+
 Renamed column from from UniqueIDA to UniqueID
 <img width="944" alt="Portfolio3" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/620cb723-460d-4703-9199-213aade7e497">
 <img width="943" alt="Portfolio4" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/7a046cb5-67b3-4f7a-8115-d1c6a385ce18">
