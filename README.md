@@ -47,7 +47,6 @@ The sum(Buildingvalue) 880727100
 
 This is the list of the distinctrow
 
-<img width="950" alt="Portfolio6" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/ef5085a5-6eb6-479f-be6b-5d8ad5ef5035">
 
 <img width="951" alt="Portfolio7" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/7c4ee172-fc8a-4b92-a7d3-ab62bbea225e">
 <img width="835" alt="Portfolio8" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/7d85a6ba-581f-402c-a0fd-330ba0133670">
