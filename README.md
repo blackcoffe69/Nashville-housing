@@ -34,6 +34,7 @@ Imported the csv file,created the database for the file
 
 Renamed column from from UniqueIDA to UniqueID
 
+<img width="930" alt="Portfolio14" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/6f007f46-2336-4294-bebd-79a4d5f70e88">
 
 Process of converting date from Nashville housing 
 
@@ -81,7 +82,6 @@ Mini BuildingValue from Nashville housing 204000
 
 <img width="950" alt="Portfolio13" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/c8679351-3aaf-48e0-8b94-41880c3fc800">
 
-<img width="930" alt="Portfolio14" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/6f007f46-2336-4294-bebd-79a4d5f70e88">
 
 Nashville housing where BuildingValue is greater that 16000
 
