@@ -34,7 +34,14 @@ Imported the csv file,created the database for the file
 
 Renamed column from from UniqueIDA to UniqueID
 
+
+Process of converting date from Nashville housing 
+
 <img width="944" alt="Portfolio3" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/620cb723-460d-4703-9199-213aade7e497">
+
+<img width="917" alt="Portfolio15" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/3455c876-7201-4a29-be49-8c20b0333cb1">
+
+Converting date of Single Family LandUse is greater than 25000
 
 The Sum(total value) is 1100817792
 
@@ -73,7 +80,12 @@ Maximum BuildingValue from Nashville housing 375000
 Mini BuildingValue from Nashville housing 204000
 
 <img width="950" alt="Portfolio13" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/c8679351-3aaf-48e0-8b94-41880c3fc800">
+
 <img width="930" alt="Portfolio14" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/6f007f46-2336-4294-bebd-79a4d5f70e88">
-<img width="917" alt="Portfolio15" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/3455c876-7201-4a29-be49-8c20b0333cb1">
+
+Nashville housing where BuildingValue is greater that 16000
+
 <img width="862" alt="Portfolio16" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/382c5b6c-7d17-43d4-a912-5c5d092556e3">
+
+OwnersName where LandValue is greater than 28000,BuildingValue is greater than 70000 and YearBuilt is greater than 1962
 
