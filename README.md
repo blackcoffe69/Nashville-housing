@@ -37,11 +37,12 @@ Renamed column from from UniqueIDA to UniqueID
 
 Process of converting date from Nashville housing 
 
-<img width="944" alt="Portfolio3" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/620cb723-460d-4703-9199-213aade7e497">
 
 <img width="917" alt="Portfolio15" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/3455c876-7201-4a29-be49-8c20b0333cb1">
 
 Converting date of Single Family LandUse is greater than 25000
+
+<img width="944" alt="Portfolio3" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/620cb723-460d-4703-9199-213aade7e497">
 
 The Sum(total value) is 1100817792
 
