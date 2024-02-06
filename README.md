@@ -54,7 +54,6 @@ The sum(Buildingvalue) 880727100
 
 This is the list of the distinctrow of YearBuilt and Owners from Nashville housing
 
-
 <img width="951" alt="Portfolio7" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/7c4ee172-fc8a-4b92-a7d3-ab62bbea225e">
 
 The list of distictrow where Ownername,YearBuilt,OwnersAddress from Nashville housing
