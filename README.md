@@ -38,6 +38,9 @@ Renamed column from from UniqueIDA to UniqueID
 
 
 <img width="943" alt="Portfolio4" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/7a046cb5-67b3-4f7a-8115-d1c6a385ce18">
+
+The Sum total is 
+
 <img width="950" alt="Portfolio5" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/7ce9e556-865b-4165-9b6b-110f272d024d">
 <img width="950" alt="Portfolio6" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/ef5085a5-6eb6-479f-be6b-5d8ad5ef5035">
 <img width="951" alt="Portfolio7" src="https://github.com/blackcoffe69/MyQl-functions/assets/154302970/7c4ee172-fc8a-4b92-a7d3-ab62bbea225e">
