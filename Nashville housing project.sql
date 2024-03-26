@@ -1,20 +1,81 @@
 create database`nashville housing`;
 select * from `nashville housing`;
-alter table `nashville housing` rename column ï»¿UniqueIDÂ to UniqueID;
-alter table `nashville housing` drop column convert_date;
-alter table `nashville housing` add column convert_date DATE;
-select * from `nashville housing`;
-update `nashville housing` set convert_date = STR_TO_DATE(SaleDate, '%m/%d/%Y');
-select * from `nashville housing`;
-select sum(TotalValue) from `nashville housing`;
-select sum(BuildingValue) from `nashville housing`;
-select * from `nashville housing` order by  OwnerAddress desc;
-select distinct YearBuilt,OwnerAddress from `nashville housing`;
-select distinct OwnerName,YearBuilt,OwnerAddress from `nashville housing`;
-select OwnerName from `nashville housing` where OwnerName like '%O%';
-select * from `nashville housing` where LandUse like '%duplex%';
-select * from `nashville housing` where BuildingValue = (SELECT MAX(BuildingValue) FROM `nashville housing`);
-select * from `nashville housing` where BuildingValue = (SELECT min(BuildingValue) FROM `nashville housing`);
-select OwnerName from `nashville housing` where BuildingValue > 16000;
-select * from `nashville housing` where LandUse = 'SINGLE FAMILY' and convert_date > 25000 and convert_date > '2019-10-10';
-select OwnerName from `nashville housing` where LandValue > 28000 and BuildingValue > 70000 and YearBuilt > 1962;
+
+# Renamed column from from UniqueIDA to UniqueID
+ALTER TABLE NashvilleHousing
+RENAME COLUMN UniqueIDA TO UniqueID;
+
+# list of UniqueID in ascending order
+
+  SELECT OwnerName
+FROM "Nashville housing"
+ORDER BY UniqueID ASC;
+
+
+# Dropped a column
+ALTER TABLE "Nashville housing"
+DROP COLUMN covertdate;
+
+# Convert date
+SELECT CONCAT(YEAR(saledate), '-', MONTH(saledate)) AS ConvertedSaleMonth
+FROM "Nashville housing";
+
+# Calculating the Sum(total value)
+SELECT SUM(Buildingvalue) AS TotalBuildingValue
+FROM "Nashville housing";
+
+
+# Checking for the total Building value
+select sum(BuildingValue) from "nashville housing";
+
+# Getting the list of OwnerAdress in ascending order
+  SELECT OwnerAddress
+FROM "Nashville housing"
+ORDER BY OwnerAddress ASC;
+
+# List of Yearbuilt,OwnerAdress
+SELECT Yearbuilt, OwnerAddress
+FROM "Nashville housing";
+
+# Getting the list of distinct row OwnerName,YearBuilt and OwnerAdress
+SELECT DISTINCT OwnerName, YearBuilt, OwnerAddress
+FROM "Nashville housing";
+
+# Get OwnerName that starts with O
+SELECT OwnerName
+FROM "Nashville housing"
+WHERE OwnerName LIKE '%O%';
+
+# List buildings with LandUse that also are Duplex in Nashville housing
+
+SELECT *
+FROM NashvilleHousing
+WHERE LandUse = 'Duplex';
+
+# How to get maximum BuildingValue
+  SELECT MAX(BuildingValue) AS MaximumBuildingValue
+FROM "Nashville housing";
+
+# Getting minimum BuildingValue
+  
+SELECT MIN(BuildingValue) AS MinimumBuildingValue
+FROM "Nashville housing";
+
+# Getting the Average BuildingValue
+
+  SELECT AVG(BuildingValue) AS AverageBuildingValue
+FROM NashvilleHousing;
+
+# Get OwnerName where BuildingValue is greater than 16000
+
+  SELECT OwnerName
+FROM "Nashville housing"
+WHERE BuildingValue < 16000;
+
+# OwnersName where LandValue is greater than 28000,BuildingValue is greater than 70000 and YearBuilt is greater than 1962
+
+SELECT OwnerName
+FROM "Nashvilleh ousing"
+WHERE LandValue > 28000
+  AND BuildingValue > 70000
+  AND YearBuilt > 1962;
